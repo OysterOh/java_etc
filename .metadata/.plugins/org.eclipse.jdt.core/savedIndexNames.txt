@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\morning glory\eclipse-jee-2022-12-R-win32-x86_64\etc\.metadata\.plugins\org.eclipse.jdt.core
