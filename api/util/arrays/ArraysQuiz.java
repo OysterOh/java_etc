@@ -9,14 +9,19 @@ public class ArraysQuiz {
 
 	public static String solution(String[] participant, String[] completion) {
 		Arrays.sort(participant);  //가나다순 정렬
-		Arrays.sort(completion);
+		Arrays.sort(completion);   //완주자 정렬
 		System.out.println(Arrays.toString(participant));
 		System.out.println(Arrays.toString(completion));
-		int idx=0;
+		//int idx=0;
+		
 		for(int i=0; i<completion.length;i++) {  //i 실패자
 			if(!completion[i].equals(participant[i])) {//성공자와 참여자가 달라질 때 
-				idx =i;  //실패자가 idx
-				break;   //실패자 한명 구했으므로 for문 종료
+				
+				// == if(!participant[i].equals(completion[i]))
+				//idx = i;  //실패자가 idx
+				//break;   //실패자 한명 구했으므로 for문 종료
+				
+				return participant[i];
 			}
 		}
 		/*
@@ -25,11 +30,13 @@ public class ArraysQuiz {
         완주하지 못한 선수의 이름을 return하는 solution 함수를 완성하세요.
         완주하지 못한 자는 1명이라고 가정한다.
 		 */
-		return participant[idx];
+		//return participant[idx];
+		
+		return participant[participant.length-1];
+		
 	}
 
 	public static void main(String[] args) {
-
 
 		//		String[] fail = Arrays.toString(participant)- Arrays.toString(completion);
 
