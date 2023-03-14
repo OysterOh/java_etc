@@ -88,7 +88,7 @@ public class ArrayListExample {
 		 
 		 
 		 //#컬렉션 객체들은 Collections의 기능을 사용할 수 있다.
-		 //collections는 컬렉션 객체들의 부가 기능들을 지원한다.
+		 //Collections는 컬렉션 객체들의 부가 기능들을 지원한다.
 		 
 		 List<Integer> score = new ArrayList<>();
 		 score.add(65);

@@ -14,7 +14,7 @@ public class ListCompare {
 		/*
 		 ArrayList는 탐색 후 객체를 참조하는 경우에 유리하고,
 		 LinkedList는 잦은 삽입/삭제 등으로 리스트의 크기가 변할 때 유리
-		 사잊가 크지 않다면 크게 차이는 없다 
+		 사이즈 크지 않다면 크게 차이는 없다 
 		 */
 		List<Integer> array = new ArrayList<>();
 		List<Integer> linked = new LinkedList<>();
